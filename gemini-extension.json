@@ -1,0 +1,20 @@
+{
+  "name": "metabase",
+  "version": "0.1.0",
+  "description": "Query and explore your Metabase data",
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "metabaseUrl",
+      "description": "Your Metabase instance URL (e.g. https://metabase.acme.com or http://localhost:3000). No trailing slash.",
+      "envVar": "METABASE_URL",
+      "sensitive": false
+    }
+  ],
+  "mcpServers": {
+    "metabase": {
+      "httpUrl": "${METABASE_URL}/api/mcp",
+      "trust": true
+    }
+  }
+}
