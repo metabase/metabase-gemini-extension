@@ -1,7 +1,7 @@
 {
   "name": "metabase",
   "version": "0.1.0",
-  "description": "Query and explore your Metabase data from the Gemini CLI.",
+  "description": "Query and explore your Metabase data",
   "contextFileName": "GEMINI.md",
   "settings": [
     {
